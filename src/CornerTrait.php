@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
-namespace ParagonIE\Corner;
+namespace Tephida\Corner;
 
 /**
  * Trait CornerTrait
- * @package ParagonIE\Corner
+ * @package Tephida\Corner
  */
 trait CornerTrait
 {

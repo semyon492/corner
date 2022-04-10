@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
-namespace ParagonIE\Corner\Tests;
+namespace Tephida\Corner\Tests;
 
-use ParagonIE\Corner\Exception;
+use Tephida\Corner\Exception;
 
 /**
  * Class FooException
- * @package ParagonIE\Corner\Tests
+ * @package Tephida\Corner\Tests
  */
 class FooException extends Exception
 {
@@ -14,6 +14,6 @@ class FooException extends Exception
     {
         parent::__construct($message, $code, $previous);
         $this->helpfulMessage = "This is an example of the Exception class";
-        $this->supportLink = "https://github.com/paragonie/corner";
+        $this->supportLink = "https://github.com/tephida/corner";
     }
 }

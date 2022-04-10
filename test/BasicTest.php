@@ -1,12 +1,12 @@
 <?php
-namespace ParagonIE\Corner\Tests;
+namespace Tephida\Corner\Tests;
 
-use ParagonIE\Corner\CornerInterface;
+use Tephida\Corner\CornerInterface;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class BasicTest
- * @package ParagonIE\Corner\Tests
+ * @package Tephida\Corner\Tests
  */
 class BasicTest extends TestCase
 {
@@ -17,7 +17,7 @@ class BasicTest extends TestCase
         } catch (CornerInterface $ex) {
             $this->assertSame('test', $ex->getMessage());
             $this->assertNotEmpty($ex->getHelpfulMessage());
-            $this->assertSame('https://github.com/paragonie/corner', $ex->getSupportLink());
+            $this->assertSame('https://github.com/tephida/corner', $ex->getSupportLink());
         }
     }
 
@@ -28,7 +28,7 @@ class BasicTest extends TestCase
         } catch (CornerInterface $ex) {
             $this->assertSame('test', $ex->getMessage());
             $this->assertNotEmpty($ex->getHelpfulMessage());
-            $this->assertSame('https://github.com/paragonie/corner', $ex->getSupportLink());
+            $this->assertSame('https://github.com/tephida/corner', $ex->getSupportLink());
         }
     }
 

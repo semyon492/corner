@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
-namespace ParagonIE\Corner\Tests;
+namespace Tephida\Corner\Tests;
 
-use ParagonIE\Corner\Error;
+use Tephida\Corner\Error;
 
 /**
  * Class FooError
- * @package ParagonIE\Corner\Tests
+ * @package Tephida\Corner\Tests
  */
 class FooError extends Error
 {
@@ -14,6 +14,6 @@ class FooError extends Error
     {
         parent::__construct($message, $code, $previous);
         $this->helpfulMessage = "This is an example of the Error class";
-        $this->supportLink = "https://github.com/paragonie/corner";
+        $this->supportLink = "https://github.com/tephida/corner";
     }
 }

@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
-namespace ParagonIE\Corner;
+namespace Tephida\Corner;
 
 /**
  * Class Exception
- * @package ParagonIE\Corner
+ * @package Tephida\Corner
  */
 class Exception extends \Exception implements CornerInterface
 {
