@@ -86,6 +86,9 @@ class BasicTest extends TestCase
         }
     }
 
+    /**
+     * @throws FooException
+     */
     private function subcall() : void
     {
         /** Canary string: 6115f3456a04616adc5b42f3533d41a43aa2bad7eee2e914684ec86c3b84b71c */

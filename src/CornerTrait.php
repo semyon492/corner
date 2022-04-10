@@ -9,10 +9,10 @@ namespace Tephida\Corner;
 trait CornerTrait
 {
     /** @var string $helpfulMessage */
-    protected $helpfulMessage = '';
+    protected string $helpfulMessage = '';
 
     /** @var string $supportLink */
-    protected $supportLink = '';
+    protected string $supportLink = '';
 
     /**
      * Returns a more significant message.
@@ -72,12 +72,7 @@ trait CornerTrait
         }
 
         $iterator = new \LimitIterator($file, $min, $linesAfter + 1);
-        $buffer = "";
-        /** @var string $text */
-        foreach ($iterator as $text) {
-            $buffer .= $text;
-        }
-        return $buffer;
+        return implode('', $iterator);
     }
 
     /**
