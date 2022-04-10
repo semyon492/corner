@@ -11,12 +11,12 @@ interface CornerInterface extends \Throwable
     /**
      * You can override this to change the default value.
      */
-    const HELPFUL_MESSAGE = '';
+    public const HELPFUL_MESSAGE = '';
 
     /**
      * You can override this to change the default value.
      */
-    const SUPPORT_LINK = '';
+    public const SUPPORT_LINK = '';
 
     /**
      * Returns a more significant message.
