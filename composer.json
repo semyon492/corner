@@ -1,7 +1,7 @@
 {
   "name": "tephida/corner",
   "description": "Generic PHP Exceptions and Errors, made user-friendly.",
-  "license": "ISC",
+  "license": "MIT",
   "config": {
     "sort-packages": true
   },
