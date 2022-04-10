@@ -1,16 +1,15 @@
 # Corner
 
-[![Linux Build Status](https://travis-ci.org/paragonie/corner.svg?branch=master)](https://travis-ci.org/paragonie/corner)
-[![Latest Stable Version](https://poser.pugx.org/paragonie/corner/v/stable)](https://packagist.org/packages/paragonie/corner)
-[![Latest Unstable Version](https://poser.pugx.org/paragonie/corner/v/unstable)](https://packagist.org/packages/paragonie/corner)
-[![License](https://poser.pugx.org/paragonie/corner/license)](https://packagist.org/packages/paragonie/corner)
-[![Downloads](https://img.shields.io/packagist/dt/paragonie/corner.svg)](https://packagist.org/packages/paragonie/corner)
+[![Linux Build Status](https://travis-ci.org/tephida/corner.svg?branch=master)](https://travis-ci.org/tephida/corner)
+[![Latest Stable Version](https://poser.pugx.org/tephida/corner/v/stable)](https://packagist.org/packages/tephida/corner)
+[![Latest Unstable Version](https://poser.pugx.org/tephida/corner/v/unstable)](https://packagist.org/packages/tephida/corner)
+[![License](https://poser.pugx.org/tephida/corner/license)](https://packagist.org/packages/tephida/corner)
+[![Downloads](https://img.shields.io/packagist/dt/tephida/corner.svg)](https://packagist.org/packages/tephida/corner)
 
 PHP Exceptions and Errors designed to prevent your users from sharp corners.
 Inspired by [Rust's helpful error messages](https://twitter.com/acfoltzer/status/1074813646625169408).
 
-* Version 2.x: **Requires PHP 7.1 or newer.**
-* Version 1.x: Requires PHP 5.4 or newer.
+* Version 1.x: Requires PHP 8.0 or newer.
 
 ## Motivation 
 
