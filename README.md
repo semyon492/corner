@@ -1,6 +1,6 @@
 # Corner
 
-[![Linux Build Status](https://travis-ci.org/tephida/corner.svg?branch=master)](https://travis-ci.org/tephida/corner)
+[![Linux Build Status](https://travis-ci.org/tephida/corner.svg?branch=main)](https://travis-ci.org/tephida/corner)
 [![Latest Stable Version](https://poser.pugx.org/tephida/corner/v/stable)](https://packagist.org/packages/tephida/corner)
 [![Latest Unstable Version](https://poser.pugx.org/tephida/corner/v/unstable)](https://packagist.org/packages/tephida/corner)
 [![License](https://poser.pugx.org/tephida/corner/license)](https://packagist.org/packages/tephida/corner)
